@@ -1,0 +1,95 @@
+
+
+.wrapper {
+  display: flex;
+  
+  flex-direction: column;
+  background-color: rgb(28, 57, 93);
+ 
+}
+.elements{
+  padding: 0 7em .5em 9em;
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  text-align: center;
+  padding-top: .5em;
+}
+.array-container {
+    display : flex;
+    justify-content: center;
+    align-items:start;       
+}
+
+.array-bar {
+    background-color: rgb(28, 57, 93);
+    display: inline-block;
+    margin: 0 .5px 0 .5px;  
+}
+
+.swap {
+    background-color: red; /* Adjust the swapping bar color as needed */
+  }
+  .sorted {
+    background-color: rgb(3, 213, 3); /* Adjust the sorted bar color as needed */
+  }
+
+  .btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 15vh;
+    width: 90%; 
+    align-items: center;
+    justify-content: center;
+    padding: .2em;
+    border-left-style: groove;
+   
+  }
+
+  .btn {
+    margin: 0 1em 0 1em;
+    padding: 1px;
+    width: 10em;
+    height: 2.5em;
+    border: 2px solid white;
+    
+    background-color: cadetblue;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+  }
+.btn:hover {
+  background-color: rgb(85, 144, 146);
+}
+.btn {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+  transform: scale(.9);
+  /* Add other styles like changing background color, box shadow, etc. */
+}
+
+.slider-container {
+  display: flex;
+  justify-content: space-between;
+}
+.sliders {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#generate-btn {
+   display: flex;
+   align-items: center;
+}
+  .size-slider {
+    display: flex;
+    /* justify-content: space-between; */
+    .slider {
+      accent-color: cadetblue;
+
+    }
+  }
