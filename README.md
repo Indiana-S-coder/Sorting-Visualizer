@@ -1,5 +1,5 @@
 
-<h1>Sorting Visualizer</h1><br>
+<h1><a href="https://project-sorting-visualizer.netlify.app/">Sorting Visualizer</a></h1><br>
 <b>Sorting Visualizer</b> is a web application that allows users to visualize various sorting algorithms in action. It provides an interactive and visual representation of how different sorting algorithms work on an array of bars.
 <br>
 <img src="https://github.com/Indiana-S-coder/Sorting-Visualizer/assets/79374195/85574a74-f298-46b3-877b-e2a3e995d002">
